@@ -23,8 +23,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background: white;
-
+  background-color: rgba(253, 252, 252, 0.7);
+  font-weight: bold;
   width: 100%;
   z-index: 1000;
 }
