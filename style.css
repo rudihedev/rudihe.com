@@ -63,6 +63,7 @@ nav a:hover {
   gap: 10px;
   width: 100%;
   max-width: 580px;
+  /* max-height: 100px; */
   margin: 0 auto;
 }
 
