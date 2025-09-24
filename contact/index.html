@@ -10,11 +10,11 @@
     <div class="container">
       <nav>
         <div class="nav-left">
-          <a href="/index.html">Home</a>
+          <a href="/">Home</a>
         </div>
         <div class="nav-right">
-          <a href="/projects/index.html">Projects</a>
-          <a href="#">Contact</a>
+          <a href="/projects">Projects</a>
+          <a href="/contact">Contact</a>
         </div>
       </nav>
 
@@ -24,7 +24,7 @@
       </h3>
 
       <form class="contact-form" action="">
-        <p>
+        <div>
           <label for="name">Name:</label>
           <input
             type="text"
@@ -33,9 +33,9 @@
             placeholder="<Your Name>"
             required
           />
-        </p>
+        </div>
 
-        <p>
+        <div>
           <label for="email">E-mail:</label>
           <input
             type="email"
@@ -44,19 +44,18 @@
             placeholder="<Your e-Mail>"
             required
           />
-        </p>
+        </div>
 
-        <p>
-          <label for="msg">Mssge:</label>
-          <input
-            type="text"
+        <div>
+          <label for="msg">Message:</label>
+          <textarea
             id="msg"
             name="msg"
-            rows="2"
+            rows="3"
             placeholder="<Write Your Message...>"
             required
-          />
-        </p>
+          ></textarea>
+        </div>
 
         <button type="submit">SUBMIT</button>
       </form>

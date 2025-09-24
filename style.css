@@ -197,22 +197,23 @@ footer {
 }
 
 .contact-form label {
-  margin-bottom: 0.5rem;
   font-weight: bold;
 }
 
 .contact-form input,
 .contact-form textarea {
-  width: 85%;
+  width: 100%;
   padding: 10px;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .contact-form button {
-  width: 95%;
+  width: 100%;
   padding: 10px;
   border: none;
   background: #333;
