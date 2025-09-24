@@ -6,7 +6,8 @@ html {
 }
 
 body {
-  background: #888;
+  /* background: #888; */
+  background: whitesmoke;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -49,7 +50,7 @@ nav a:hover {
 .container {
   max-width: 600px;
   margin: auto;
-  background: #bdffd3;
+  background: whitesmoke;
   margin-top: 40px;
 }
 
