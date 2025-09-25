@@ -15,8 +15,8 @@ This is a Personal Website of Rudi. It will describe a little bit about my backg
 ## Pages
 
 - Home
-- Working Experiences
 - Projects
+- Publications
 - Contact
 
 ## Contact
