@@ -5,18 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rudi Heriansyah</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/style.css" />
   </head>
-  <body>
+  <body class="bg-gray-100">
     <div>
       <main class="max-w-[600px] mx-auto mt-10">
-        <!-- <main class="max-w-[600px] mx-auto mt-8 pl-5 px-4"> -->
-
         <nav>
-          <div class="nav-left">
+          <div>
             <a href="/">Home</a>
           </div>
-          <div class="nav-right">
+          <div class="flex gap-5">
             <a href="/projects">Projects</a>
             <a href="/publications">Publications</a>
             <a href="/contact">Contact</a>
@@ -24,7 +21,7 @@
         </nav>
 
         <div class="space-y-4">
-            <div
+          <div
             class="flex items-start gap-4 bg-gray-150 p-5 rounded-xl shadow hover:shadow-lg transition"
           >
             <div class="w-20 h-20 flex-shrink-0">
@@ -37,13 +34,33 @@
 
             <div class="flex-1">
               <h4 class="text-lg font-bold text-black-600">
-                Hyperparameter Tuning to Improve Object Detection Performance in Handwritten Images
+                Hyperparameter Tuning to Improve Object Detection Performance in
+                Handwritten Images
               </h4>
               <p class="text-base text-gray-600">
-                Muhammad Haviz Irfani, Samsuryadi, Abdiansah, Rudi Heriansyah, 2024
+                Muhammad Haviz Irfani, Samsuryadi, Abdiansah, Rudi Heriansyah,
+                2024
               </p>
               <p class="text-sm mt-2 text-gray-600">
-                Object detection in handwritten images is a complex challenge due to variations in writing styles, letter sizes, and environmental conditions when handwriting is created. The You Only Look Once (YOLO) method has shown promising results in detecting objects in real-time in various types of images. However, YOLO performance is highly dependent on optimal hyperparameter tuning for a specific detection task. Hyperparameter tuning is a crucial step in improving object detection performance, especially in the context of handwritten images. This research aims to optimize YOLO hyperparameters to increase the accuracy of object detection in handwritten images. Some tuned hyperparameters are momentum, weight_decay, learning rate, batch size, and epoch. This research was carried out for 49 training sessions using the YOLOv8 and CUDA version 11.8 frameworks with a primary dataset obtained of 44 pieces of diverse handwriting, including various variations of handwriting styles that were consistent in lighting conditions, type and size of paper and pen, form format, and healthy physical and psychological conditions. 
+                Object detection in handwritten images is a complex challenge
+                due to variations in writing styles, letter sizes, and
+                environmental conditions when handwriting is created. The You
+                Only Look Once (YOLO) method has shown promising results in
+                detecting objects in real-time in various types of images.
+                However, YOLO performance is highly dependent on optimal
+                hyperparameter tuning for a specific detection task.
+                Hyperparameter tuning is a crucial step in improving object
+                detection performance, especially in the context of handwritten
+                images. This research aims to optimize YOLO hyperparameters to
+                increase the accuracy of object detection in handwritten images.
+                Some tuned hyperparameters are momentum, weight_decay, learning
+                rate, batch size, and epoch. This research was carried out for
+                49 training sessions using the YOLOv8 and CUDA version 11.8
+                frameworks with a primary dataset obtained of 44 pieces of
+                diverse handwriting, including various variations of handwriting
+                styles that were consistent in lighting conditions, type and
+                size of paper and pen, form format, and healthy physical and
+                psychological conditions.
               </p>
               <a
                 class="text-xs space-y-4 font-bold"
@@ -53,7 +70,7 @@
             </div>
           </div>
 
-            <div
+          <div
             class="flex items-start gap-4 bg-gray-150 p-5 rounded-xl shadow hover:shadow-lg transition"
           >
             <div class="w-20 h-20 flex-shrink-0">
@@ -66,13 +83,28 @@
 
             <div class="flex-1">
               <h4 class="text-lg font-bold text-black-600">
-                Detection and Classification Disease Citrus Nobilis Lour Using Convolutional Neural Network Method
+                Detection and Classification Disease Citrus Nobilis Lour Using
+                Convolutional Neural Network Method
               </h4>
               <p class="text-base text-gray-600">
-                Muhammad Tsaqib, Zaid Romegar Mair, Gasim, Rudi Heriansyah, Herri Setiawan, 2024
+                Muhammad Tsaqib, Zaid Romegar Mair, Gasim, Rudi Heriansyah,
+                Herri Setiawan, 2024
               </p>
               <p class="text-sm mt-2 text-gray-600">
-                Citrus Nobilis Lour, sometimes known as Siamese oranges, is the primary fruit in many nations and one of the fruits with the highest commercial worth [1]. This study makes use of data from 2000 photos, 500 photos each classthat is, the class of leaves affected by cancer, the class of leaves affected by worm disease, the class of leaves affected by Citrus Vein Phloem Degeneration (CVPD), and the class of healthy leaves after which the VGG-16 model is trained to identify and categorize the illness. This study employs Adam optimization and Stochastic Gradient Descent (SGD) optimization with VGG-16. Three trials with SGD and two trials with Adam were included in the research. This research yielded train accuracy of 72% in 40 epochs using SGD optimization and 90% in 10 epochs using Adam optimization, along with a 54% classification accuracy.
+                Citrus Nobilis Lour, sometimes known as Siamese oranges, is the
+                primary fruit in many nations and one of the fruits with the
+                highest commercial worth [1]. This study makes use of data from
+                2000 photos, 500 photos each classthat is, the class of leaves
+                affected by cancer, the class of leaves affected by worm
+                disease, the class of leaves affected by Citrus Vein Phloem
+                Degeneration (CVPD), and the class of healthy leaves after which
+                the VGG-16 model is trained to identify and categorize the
+                illness. This study employs Adam optimization and Stochastic
+                Gradient Descent (SGD) optimization with VGG-16. Three trials
+                with SGD and two trials with Adam were included in the research.
+                This research yielded train accuracy of 72% in 40 epochs using
+                SGD optimization and 90% in 10 epochs using Adam optimization,
+                along with a 54% classification accuracy.
               </p>
               <a
                 class="text-xs space-y-4 font-bold"
@@ -309,7 +341,7 @@
                 href="https://doi.org/10.1016/j.ndteint.2009.06.008"
                 >https://doi.org/10.1016/j.ndteint.2009.06.008</a
               >
-            </div>            
+            </div>
           </div>
 
           <div
@@ -328,10 +360,20 @@
                 Neural Network Paradigm for Classification of Defects on PCB
               </h4>
               <p class="text-base text-gray-600">
-                Rudi Heriansyah, Syed Abdul Rahman Al-Attas, M. M. A. Zabidi, 2003
+                Rudi Heriansyah, Syed Abdul Rahman Al-Attas, M. M. A. Zabidi,
+                2003
               </p>
               <p class="text-sm mt-2 text-gray-600">
-                A new technique is proposed to classify the defects that could occur on the PCB usingneural network paradigm. The algorithms to segment the image into basic primitive patterns, enclosingthe primitive patterns, patterns assignment, patterns normalization, and classification have been developedbased on binary morphological image processing and Learning Vector Quantization (LVQ) neuralnetwork. Thousands of defective patterns have been used for training, and the neural network is testedfor evaluating its performance. A defective PCB image is used to ensure the function of the proposed technique.
+                A new technique is proposed to classify the defects that could
+                occur on the PCB usingneural network paradigm. The algorithms to
+                segment the image into basic primitive patterns, enclosingthe
+                primitive patterns, patterns assignment, patterns normalization,
+                and classification have been developedbased on binary
+                morphological image processing and Learning Vector Quantization
+                (LVQ) neuralnetwork. Thousands of defective patterns have been
+                used for training, and the neural network is testedfor
+                evaluating its performance. A defective PCB image is used to
+                ensure the function of the proposed technique.
               </p>
               <a
                 class="text-xs space-y-4 font-bold"
@@ -339,6 +381,7 @@
                 >https://doi.org/10.11113/jt.v39.465</a
               >
             </div>
+          </div>
         </div>
       </main>
 
